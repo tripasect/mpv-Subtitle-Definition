@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/49ad32c3-a4fb-4d44-9795-27a1ef1f8381
 - **mpv:** Ensure you have mpv installed on your system.
 - **Python 3.6+:** The Python script requires Python 3.6 or higher.
 
-### Python Dependencies
+### Set-up
 
 1. Clone this repository to your local machine and kick the .lua file out of the directory:
 
