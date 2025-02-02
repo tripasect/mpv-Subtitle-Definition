@@ -1,11 +1,11 @@
-# Preview
+# Introduction
 https://github.com/user-attachments/assets/49ad32c3-a4fb-4d44-9795-27a1ef1f8381
 
 
 
 <img src="https://raw.githubusercontent.com/mpv-player/mpv.io/master/source/images/mpv-logo-128.png" width="25px" align="absmiddle"> **mpv-Subtitle-Definition** is an [mpv-player](https://github.com/mpv-player/mpv) extension developed to help viewers better understand difficult or obscure words appearing in movie or video subtitles when using mpv. When triggered by a key (`TAB` or `ENTER`), it reads the current subtitle text displayed on screen, sends it to a Python script that extracts challenging words, and then uses ChatGPT's API to look up their definitions. The definitions are then returned to the Lua script and displayed on-screen (OSD) for easy reference.
 
-## Features
+# Features
 
 - **Real-Time Assistance:** Instantly provides definitions for difficult or obscure words in subtitles.
 - **Seamless Integration:** Triggered directly from mpv using configurable keys (TAB/ENTER).
@@ -13,14 +13,12 @@ https://github.com/user-attachments/assets/49ad32c3-a4fb-4d44-9795-27a1ef1f8381
 - **Powered by ChatGPT:** Leverages ChatGPT’s API to retrieve clear, dictionary-style definitions with example sentences.
 - **Customizable:** Easily extendable and modifiable to suit your needs.
 
-## Installation
-
-### Prerequisites
+# Prerequisites
 
 - **mpv:** Ensure you have mpv installed on your system.
 - **Python 3.6+:** The Python script requires Python 3.6 or higher.
 
-### Set-up
+# Installation
 
 1. Clone this repository to your local machine and kick the .lua file out of the directory:
 
@@ -67,11 +65,12 @@ OPENAI_API_KEY=your_openai_api_key_here
 ```
 
 
-## Usage
+# Usage
 - Start mpv and load your video.
 - Trigger the script: While watching the video, press `TAB` or `ENTER` to capture the current subtitle text.
 - View definitions: The extension will pause the playback, analyze the subtitle text and, if difficult words are found, show their definitions on the screen. If no difficult words are found, it simply resumes the playback without querying ChatGPT at all.
-### Customization
+
+## Customization
   - Known Words List: To prevent common words from being looked up, maintain a directory of text files containing known words. Add or update .txt files in directory path `/word-lists` if necessary.
   - Key Bindings: Adjust the Lua script to change the trigger key if needed.
 
