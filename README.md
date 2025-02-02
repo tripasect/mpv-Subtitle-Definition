@@ -17,6 +17,7 @@ https://github.com/user-attachments/assets/49ad32c3-a4fb-4d44-9795-27a1ef1f8381
 
 - **mpv:** Ensure you have mpv installed on your system. If you don't, visit [mpv-player](https://github.com/mpv-player/mpv) for more information.
 - **Python 3.6+:** The Python script requires Python 3.6 or higher.
+- **OpenAI API:** You need generative AI. I use ChatGPT 4o mini but you can use your provider of choice with a bit of modification.
 
 # Installation
 
