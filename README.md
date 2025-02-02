@@ -29,7 +29,7 @@ cd mpv-Subtitle-Definition
 mv mpv-Subtitle-Definition.lua ..
 ```
 
-2.	Create and activate a `.venv` virtual environment (*required*):
+2.	Create and activate a `.venv` virtual environment (**required**):
 
 ```bash
 python3 -m venv .venv
