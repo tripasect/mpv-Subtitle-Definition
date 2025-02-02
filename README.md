@@ -5,7 +5,7 @@ https://github.com/user-attachments/assets/49ad32c3-a4fb-4d44-9795-27a1ef1f8381
 
 # mpv-Subtitle-Definition
 
-**mpv-Subtitle-Definition** is a tool designed to help viewers better understand difficult or obscure words appearing in movie or video subtitles when using mpv. When triggered by a key (TAB or ENTER), it reads the current subtitle text displayed on screen, sends it to a Python script that extracts challenging words, and then uses ChatGPT's API to look up their definitions. The definitions are then returned to the Lua script and displayed on-screen (OSD) for easy reference.
+**mpv-Subtitle-Definition** is an mpv extension developed to help viewers better understand difficult or obscure words appearing in movie or video subtitles when using mpv. When triggered by a key (TAB or ENTER), it reads the current subtitle text displayed on screen, sends it to a Python script that extracts challenging words, and then uses ChatGPT's API to look up their definitions. The definitions are then returned to the Lua script and displayed on-screen (OSD) for easy reference.
 
 ## Features
 
@@ -71,8 +71,8 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 ## Usage
 - Start mpv and load your video.
-- Trigger the Script: While watching the video, press TAB or ENTER to capture the current subtitle text.
-- View Definitions: The Python script will analyze the subtitle text and, if difficult words are found, send their definitions back to the Lua script. The definitions will then be displayed on-screen via mpv’s OSD.
+- Trigger the script: While watching the video, press TAB or ENTER to capture the current subtitle text.
+- View definitions: The extension will pause the playback, analyze the subtitle text and, if difficult words are found, show their definitions on the screen. If no difficult words are found, it simply resumes the playback without querying ChatGPT at all.
 ### Customization
   - Known Words List: To prevent common words from being looked up, maintain a directory of text files containing known words. Add or update .txt files in directory path `/word-lists` if necessary.
   - Key Bindings: Adjust the Lua script to change the trigger key if needed.
