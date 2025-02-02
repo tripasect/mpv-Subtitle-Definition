@@ -29,10 +29,10 @@
    cd ~/.config/mpv/scripts
    ```
 
-2.	Create and activate a virtual environment (optional but recommended):
+2.	Create and activate a virtual environment (*required*):
 
 ```bash
-python3 -m venv venv
+python3 -m venv .venv
 source venv/bin/activate
 ```
 
