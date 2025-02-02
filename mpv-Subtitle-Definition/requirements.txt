@@ -1,3 +1,0 @@
-openai
-nltk
-python-dotenv
