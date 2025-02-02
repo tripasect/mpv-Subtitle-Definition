@@ -22,12 +22,12 @@
 
 1. Clone this repository to your local machine:
 
-   ```bash
-   cd ~/.config/mpv/scripts
-   git clone https://github.com/tripasect/mpv-Subtitle-Definition.git
-   cd mpv-Subtitle-Definition
-   mv mpv-Subtitle-Definition.lua ..
-   ```
+```bash
+cd ~/.config/mpv/scripts
+git clone https://github.com/tripasect/mpv-Subtitle-Definition.git
+cd mpv-Subtitle-Definition
+mv mpv-Subtitle-Definition.lua ..
+```
 
 2.	Create and activate a virtual environment `.venv` (*required*):
 
