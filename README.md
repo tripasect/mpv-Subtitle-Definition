@@ -3,7 +3,7 @@ https://github.com/user-attachments/assets/49ad32c3-a4fb-4d44-9795-27a1ef1f8381
 
 
 
-<img src="https://raw.githubusercontent.com/mpv-player/mpv.io/master/source/images/mpv-logo-128.png" width="25px" align="absmiddle"> **mpv-Subtitle-Definition** is an [mpv-player](https://github.com/mpv-player/mpv) extension put together to help language learners better understand difficult or obscure words appearing in movie or video subtitles when using mpv. When triggered by a key (`TAB` or `ENTER`), it reads the current subtitle text displayed on screen, sends it to a Python script that extracts challenging words, and then uses ChatGPT's API to look up their definitions. The definitions are then returned to the Lua script and displayed on-screen (OSD) for easy reference.
+<img src="https://raw.githubusercontent.com/mpv-player/mpv.io/master/source/images/mpv-logo-128.png" width="25px" align="absmiddle"> **mpv-Subtitle-Definition** is an [mpv-player](https://github.com/mpv-player/mpv) extension put together to help language learners easier understand difficult or obscure words appearing in movie or video subtitles when using mpv. When triggered by a key (`TAB` or `ENTER`), it reads the current subtitle text displayed on screen, sends it to a Python script that extracts challenging words, and then uses ChatGPT's API to look up their definitions. The definitions are then returned to the Lua script and displayed on-screen (OSD) for easy reference.
 
 ## Features
 
