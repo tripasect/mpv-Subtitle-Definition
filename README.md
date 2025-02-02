@@ -69,7 +69,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 - View definitions: The extension will pause the playback, analyze the subtitle text and, if difficult words are found, show their definitions on the screen. If no difficult words are found, it simply resumes the playback without querying ChatGPT at all.
 
 # Customization
-- Known Words List: To prevent common words from being looked up, maintain a directory of text files containing known words. Add or update .txt files in directory path `/word-lists` if necessary.
+- Known Words Lists: To prevent common words from being looked up, maintain a directory of text files by adding/updating the .txt files in directory path `/word-lists`.
 - Key Bindings: Adjust the Lua script to change the trigger key if needed.
 - Prompting: Since the backbone of the extension is generative AI, it is easy to modify its behavior. Change the `query` string in the .py file to best suit your needs.
 
