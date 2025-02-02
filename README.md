@@ -23,17 +23,17 @@
 1. Clone this repository to your local machine:
 
    ```bash
+   cd ~/.config/mpv/scripts
    git clone https://github.com/tripasect/mpv-Subtitle-Definition.git
    cd mpv-Subtitle-Definition
-   cp -R . ~/.config/mpv/scripts/
-   cd ~/.config/mpv/scripts
+   mv mpv-Subtitle-Definition.lua ..
    ```
 
-2.	Create and activate a virtual environment (*required*):
+2.	Create and activate a virtual environment `.venv` (*required*):
 
 ```bash
 python3 -m venv .venv
-source venv/bin/activate
+source .venv/bin/activate
 ```
 
 
@@ -54,6 +54,7 @@ python -c "import nltk; nltk.download('punkt'); nltk.download('averaged_perceptr
 5.	Create a .env file in the project root:
   ```bash
   touch .env
+  nano .env
   ```
 
 6.	Add your OpenAI API key to the .env file:
