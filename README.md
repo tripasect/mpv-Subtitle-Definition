@@ -64,7 +64,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 
 # Usage
-- Start mpv and load your video.
+- Start mpv and play your video.
 - Trigger the script: While watching the video, press `TAB` or `ENTER` to capture the current subtitle text.
 - View definitions: The extension will pause the playback, analyze the subtitle text and, if difficult words are found, show their definitions on the screen. If no difficult words are found, it simply resumes the playback without querying ChatGPT at all.
 
