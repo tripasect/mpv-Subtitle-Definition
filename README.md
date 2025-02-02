@@ -20,7 +20,7 @@ https://github.com/user-attachments/assets/49ad32c3-a4fb-4d44-9795-27a1ef1f8381
 
 # Installation
 
-1. Clone this repository to your local machine and kick the .lua file out of the directory:
+1. Clone this repository in the scripts folder of mpv and de-nest the .lua file:
 
 ```bash
 cd ~/.config/mpv/scripts
