@@ -21,7 +21,6 @@ https://github.com/user-attachments/assets/49ad32c3-a4fb-4d44-9795-27a1ef1f8381
 
 - **mpv:** Ensure you have mpv installed on your system.
 - **Python 3.6+:** The Python script requires Python 3.6 or higher.
-- **Lua:** mpv should have Lua scripting support enabled.
 
 ### Python Dependencies
 
