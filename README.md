@@ -24,7 +24,7 @@ https://github.com/user-attachments/assets/49ad32c3-a4fb-4d44-9795-27a1ef1f8381
 
 ### Python Dependencies
 
-1. Clone this repository to your local machine:
+1. Clone this repository to your local machine and kick the .lua file out of the directory:
 
 ```bash
 cd ~/.config/mpv/scripts
