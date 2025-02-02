@@ -26,6 +26,7 @@
    git clone https://github.com/tripasect/mpv-Subtitle-Definition.git
    cd mpv-Subtitle-Definition
    cp -R . ~/.config/mpv/scripts/
+   cd ~/.config/mpv/scripts
    ```
 
 2.	Create and activate a virtual environment (optional but recommended):
