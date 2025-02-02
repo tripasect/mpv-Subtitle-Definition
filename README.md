@@ -68,7 +68,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 - Trigger the script: While watching the video, press `TAB` or `ENTER` to capture the current subtitle text.
 - View definitions: The extension will pause the playback, analyze the subtitle text and, if difficult words are found, show their definitions on the screen. If no difficult words are found, it simply resumes the playback without querying ChatGPT at all.
 
-## Customization
+# Customization
   - Known Words List: To prevent common words from being looked up, maintain a directory of text files containing known words. Add or update .txt files in directory path `/word-lists` if necessary.
   - Key Bindings: Adjust the Lua script to change the trigger key if needed.
 
