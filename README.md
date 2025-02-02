@@ -54,10 +54,13 @@ python -c "import nltk; nltk.download('punkt'); nltk.download('averaged_perceptr
 5.	Create a .env file in the project root:
   ```bash
   touch .env
-  nano .env
   ```
 
 6.	Add your OpenAI API key to the .env file:
+
+```bash
+nano .env
+```
 
 ```file
 # .env
