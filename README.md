@@ -8,7 +8,7 @@ https://github.com/user-attachments/assets/49ad32c3-a4fb-4d44-9795-27a1ef1f8381
 ## Features
 
 - **Real-Time Assistance:** Instantly provides definitions for difficult or obscure words in subtitles.
-- **Seamless Integration:** Triggered directly from mpv using configurable keys (TAB/ENTER).
+- **Seamless Integration:** Triggered directly from mpv using configurable keys (`TAB`/`ENTER`).
 - **Automated Word Analysis:** Utilizes a Python script to parse subtitle text and detect challenging vocabulary.
 - **Powered by ChatGPT:** Leverages ChatGPT’s API to retrieve clear, dictionary-style definitions with example sentences.
 - **Customizable:** Easily extendable and modifiable to suit your needs.
