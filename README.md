@@ -74,8 +74,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 - Key Bindings: Adjust the Lua script to change the trigger key if needed.
 - Prompting: Since the backbone of the extension is generative AI, it is easy to modify its behavior. Change the `query` string in the .py file to best suit your needs.
 
-
-Contributions are welcome. PLLLLLEASE fork this and make it better. Also, feel free to open issues or submit pull requests on GitHub.
-
+# Contributions
+Yes please. Do fork this and make it better, do open issues and do submit your pull requests. 
 
 Happy viewing and learning!
